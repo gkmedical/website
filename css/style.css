@@ -394,9 +394,10 @@ i.global{
 	line-height: 1.6em;
 }
 .testimonials-section{
-	background: url('../images/t-bg.jpg') no-repeat 0px 0px;
+	background: url('../images/keyboard-bg.jpg') no-repeat;
+	background-attachment: fixed;
 	background-size:cover;
-	min-height:494px
+	min-height:494px;
 }
 .testimonials-section-head h3{
 	color:#8a8a8a;
@@ -449,6 +450,8 @@ i.global{
 	font-weight: 300;
 	letter-spacing: 2px;
 	margin-bottom: 1em;
+	margin-top: 10px;
+
 }
 .contact-top p {
 	color: #000;
