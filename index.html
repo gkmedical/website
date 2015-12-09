@@ -4,8 +4,11 @@
 <title>Home</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="css/animate.css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
+<script src="js/jquery.isotope.js"></script>
+<script src="js/portfolio.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
@@ -31,7 +34,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>                                              
 						<li><a class="active" href="">Home</a></li>						
 						<li><a href="about.html">About Us</a></li>
-						<li><a href="404.html">Products</a></li>
+						<li><a href="product.html">Products</a></li>
 						<li><a href="services.html">Services</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
@@ -55,20 +58,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner">
 		<div class="container">
 			<div class="banner-info">
-				<h2> Customized instrumentation for biomedical research and clinical applications</h2>
+				<h2>Customized instrumentation for biomedical research and clinical applications</h2>
 				<p>If you want to become a scientist,We help you building your dream lab;</p>
 				<p>If you want to become a businessman,We help you crafting your dream products.</p>
 				<a href="contact.html" class="btn btn-1 btn-1d">Request a service</a>
 			</div>
 		</div>
 	</div>
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
 	<div class="content">
-		
-	
 	<div class="services-section">
 	
-	<!--our products-->
+	<!--our clients-->
 	<div class="our-clients">
 		<div class="container">
 			<div class="our-clients-head">
@@ -79,14 +79,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="nbs-flexisel-container">
 							<div class="nbs-flexisel-inner">
 							<ul class="flexiselDemo3 nbs-flexisel-ul" style="left: -253.6px; display: block;">					    					    					       
+							<li><img src="images/c7.jpg"><h5>Fiber Recording/Stimulation system</h5></li>
+							<li><img src="images/c8.jpg"><h5>“LotosScan“ Two-photon imaging system</h5></li>
 							<li><img src="images/c1.jpg"><h5>Automatic Blood Type Distribution <br>Analyzer</h5></li>
 							<li><img src="images/c2.jpg"><h5>Dry Chemical Analysis System</h5></li>
 							<li><img src="images/c3.jpg"><h5>POCT Fluorescence Immunoassay <br>Analyzer</h5></li>
 							<li><img src="images/c4.jpg"><h5>Automatic Blood Type Distribution<br> Analyzer</h5></li>
 							<li><img src="images/c5.jpg"><h5>Automatic energy transfer fluorescence<br>analyzer</h5></li>
-							<li><img src="images/c6.jpg"><h5>Dry chemical analysis system</h5></li>
-							<li><img src="images/c7.jpg"><h5>Fiber Recording/Stimulation system</h5></li>
-							<li><img src="images/c8.jpg"></li>
+							<li><img src="images/c6.jpg"><h5>Dry chemical analysis system</h5></li>							
 							</ul>
 							<div class="nbs-flexisel-nav-left" style="display:none"></div>
 							<div class="nbs-flexisel-nav-right" style="display:none"></div></div></div> 
@@ -125,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  </div>				
 			</div>
 		</div>
-		
+	
 		<div class="container">
 			<h3>Our Services</h3>
 			<div class="services-section-grids">
@@ -142,7 +142,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="clearfix"></div>
 						</div>
-						</div>
+					</div>
 					<div class="services-section-grid1-bottom">
 						<h4>Technology Transfer</h4>
 						<p>Offering both hosted and traditional, we know we have the system for you</p>
@@ -203,26 +203,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<!--<div class="subscribe-section">
-		<div class="container">
-			<div class="subscribe-section-grids">
-				<div class="col-md-8 subscribe">
-					<h3>Subscribe for our free PDF Ebook</h3>
-					<input type="text" class="text" value="" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '';}">
-					<a href="#">Download PDF</a>
-				</div>
-				<div class="col-md-4 book">
-					<img src="images/book.png" alt="" >
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>-->
+	
+	<!--our clients原来在的地方-->
 	
 		<div class="testimonials-section">
 			<div class="container">
 				<div class="testimonials-section-head text-center">
-					<h3 style="color:white">Our Lastest Blogs</h3>
+					<h3 style="color:white">Lastest News</h3>
 				</div>
 				<div class="members">
 					<!--<div class="col-md-4 member1">
@@ -232,65 +219,175 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<p>CEO, Company.com</p>
 						</div>
 						</div>-->
-				<div class="col-md-offset-2 col-md-8 description">
-					<div class="course_demo">
-		          <ul id="flexiselDemo4">	
-					<li>
-						<div class="client-text">
-							<p style="color:black">September 17, 2015, Suzhou, China</p>
-							<p>The 2nd Bio-Medical Engineering Suzhou International Symposium was held successfully</p>							
+					<div class="col-md-offset-2 col-md-8 description center">	
+						<div class="course_demo">
+							  <ul id="flexiselDemo4">	
+								<li>
+									<div class="client-text">
+										<p style="color:black">September 17, 2015, Suzhou, China</p>
+										<p>The 2nd Bio-Medical Engineering Suzhou International Symposium</p>							
+									</div>
+								</li>
+								<li>
+									<div class="client-text">		
+										<p style="color:black">April 22, 2015,Suzhou,China</p>
+										<p>The 2nd SIBET International Symposium on Advanced Bio-Medical Diagnostics </p>							
+									</div>
+								</li>	
+								<li>
+									<div class="client-text">
+									<p style="color:black">April 24,2015,Suzhou,China</p>
+									<p>SIBET Launches Brain Research Instrument Innovation Center  </p>						
+									</div>
+								</li>									    	  	       	   	  									    	  	       	   	    	
+							</ul>
 						</div>
-					</li>
-					<li>
-						<div class="client-text">		
-							<p style="color:black">April 22, 2015,Suzhou,China</p>
-							<p>The 2nd SIBET International Symposium on Advanced Bio-Medical Diagnostics </p>							
-						</div>
-					</li>	
-					<li>
-						<div class="client-text">
-						<p style="color:black">April 24,2015,Suzhou,China</p>
-						<p>SIBET Launches Brain Research Instrument Innovation Center  </p>						
-						</div>
-					</li>									    	  	       	   	  									    	  	       	   	    	
-				</ul>
+						<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo4").flexisel({
+									visibleItems: 1,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 1
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems: 1
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 1
+										}
+									}
+								});
+								
+							});
+						</script>
+						<script type="text/javascript" src="js/jquery.flexisel.js"></script>	
 
-	  </div>
-		<script type="text/javascript">
-			$(window).load(function() {
-				$("#flexiselDemo4").flexisel({
-					visibleItems: 1,
-					animationSpeed: 1000,
-					autoPlay: true,
-					autoPlaySpeed: 3000,    		
-					pauseOnHover: true,
-					enableResponsiveBreakpoints: true,
-			    	responsiveBreakpoints: { 
-			    		portrait: { 
-			    			changePoint:480,
-			    			visibleItems: 1
-			    		}, 
-			    		landscape: { 
-			    			changePoint:640,
-			    			visibleItems: 1
-			    		},
-			    		tablet: { 
-			    			changePoint:768,
-			    			visibleItems: 1
-			    		}
-			    	}
-			    });
-			    
-			});
-		</script>
-		<script type="text/javascript" src="js/jquery.flexisel.js"></script>	
-
-				    </div>
-					<div class="clearfix"></div>
 					</div>
+					<div class="clearfix"></div>
+				</div>
 					
+			</div>
+		</div>
+		
+		<!--后加上去的新闻内容-->
+
+		<!--<div class="recentworks bottom-pad">
+               <div class="container">
+					<div class="our-clients-head">
+					<h3>Lastest News</h3>
+					</div>
+				    <div class="row">
+                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 animate_afl d1">
+                        <div class="portfolio-desc">
+                           <h3>最新动态</h3>
+                           <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+						   <br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                           <div class="carousel-controls">
+                              <a class="prev" href="#portfolio-carousel" data-slide="prev"><i class="icon-angle-left"></i></a>
+                              <a class="next" href="#portfolio-carousel" data-slide="next"><i class="icon-angle-right"></i></a>
+                              <div class="clearfix"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 col-md-9 col-xs-12">
+                        <div class="row">
+                           <div id="portfolio-carousel" class="portfolio-carousel slide">
+                              <div class="carousel-inner">
+                                 <div class="item active">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d2">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/planning.JPG" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span>
+                                          <span class="fullscreen"></span><img src="images/recent news/brain.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">SIBET Launches Brain Research Instrument Innovation Center</a>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d3">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/travel-deals-to-Europe.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"></span><img src="images/recent news/conference.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">The 2nd Bio-Medical Engineering Suzhou International Symposium was held successfully in SIBET </a>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d4">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/sculpture.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"></span><img src="images/recent news/brain.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">SIBET Launches Brain Research Instrument Innovation Center</a>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="item">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/studyin Europe.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"></span><img src="images/recent news/brain.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">SIBET Launches Brain Research Instrument Innovation Center</a>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
+                                       <div class="portfolio-item">
+                                          <a href="img/portfolio/jiuzhuang.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                          <span class="portfolio-item-hover"></span><span class="fullscreen"></span><img src="images/recent news/brain.jpg" alt=" "/>
+                                          </a>
+                                          <div class="portfolio-item-title">
+                                             <a href="single-project.html">SIBET Launches Brain Research Instrument Innovation Center</a>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>-->
+		<!--后加上去的新闻内容-->
+		
+		<!--<div class="subscribe-section">
+			<div class="container">
+				<div class="subscribe-section-grids">
+					<div class="col-md-8 subscribe">
+						<h3>Subscribe for our free PDF Ebook</h3>
+						<input type="text" class="text" value="" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '';}">
+						<a href="#">Download PDF</a>
+					</div>
+					<div class="col-md-4 book">
+						<img src="images/book.png" alt="" >
+					</div>
+					<div class="clearfix"></div>
 				</div>
 			</div>
+		</div>-->
+	
 		</div>
 		<div class="contact-section text-center">
 			<div class="container">
