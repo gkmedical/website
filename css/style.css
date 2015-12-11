@@ -575,7 +575,7 @@ i.linkedin{
 	margin-bottom: 0.8em;
 }
 .service_grid {
-	padding: 0;
+	padding-bottom: 20px;
 	width: 31.333%;
 	margin-right: 3%;
 }
@@ -583,14 +583,14 @@ i.linkedin{
 	margin-right:0;
 }
 .service_grid h4 {
-	color: #feb913;
+	color: #black;
 	font-size: 1.4em;
 	font-weight: 500;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin: 20px 0 0 0;
 }
 .service_grid p{
-	color: #E6E6E6;
+	color: #black;
 	font-weight: 300;
 	font-size: 1em;
 	line-height: 1.8em;
@@ -2878,6 +2878,8 @@ a.portfolio-item-link {
 .wp3 { background: url('../images/img_modified-4.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
 .wrapper { height: 650px; }
 .iphone { width: 50%; background: #f3f5f8; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
-.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 200px; }
+.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 190px; }
 #servicesSlider { margin-top: 70px; }
 ul.slides li { margin-bottom: 20px; }
+
+.wp2 { background: url('../images/img_modified-5.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
