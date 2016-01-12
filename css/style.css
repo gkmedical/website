@@ -622,16 +622,12 @@ i.linkedin{
 	font-size: 0.965em;
 	line-height: 1.8em;
 	margin: 8px 0 15px 0;
-	max-width: 810px;
-	margin: 0 auto 13px;
 	opacity:0.7;
 }
 .grid_12 h5 {
 	font-size: 1.11em;
 	color: #1f3e4f;
-	line-height: 1.6em;
-	margin: 0 auto 13px;
-	max-width: 860px;
+	line-height: 1.6em;	
 	font-weight:600;
 }
 .grid_5{
